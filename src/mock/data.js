@@ -39,7 +39,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'socialNetwork.png',
     title: 'Henry Network',
     info: 'Red social hecha exclusivamente para la comunidad del Bootcamp Henry. La misma cuenta con la posibilidad de crear, comentar y likear posts. Cuenta con notificaciones  y chat en tiempo real. Además cuenta con un estado de administrador donde este puede bloquear personas por distintas violaciones a las normas de la comunidad, en estos casos a dicha persona le llega mediante el correo el aviso de que su cuenta fue inhabilitada. El administrador es quien da de alta a las personas que se registran en la red social.',
     info2: 'Mi papel principal en este trabajo fue encargarme de los estilos de la aplicación.',
