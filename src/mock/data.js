@@ -11,8 +11,8 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: 'Hola, mi nombre es',
-  name: 'Agustin Sartorio',
-  subtitle: 'Y soy desarrollador Front-End',
+  name: 'Agustín Sartorio',
+  subtitle: 'Y soy desarrollador Web Full-Stack',
   cta: 'Conoceme',
 };
 
@@ -20,7 +20,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'Tengo 21 años, soy emprendedor y desarrollador web fullstack. Emprendí durante 3 años en la industria del marketing y comunicación a la vez que también aprendía sobre trading y otras cosas más. Durante esos años aprendi muchos valores tales como liderazgo, trabajo en equipo, comunicación efectiva, disciplina, a ser proactivo, constancia y muchos otros mas. Pero sobre todo aprendí a mejorar como persona, y en esa busqueda constante de mejora y de aprender cosas nuevas me topé con este mundo tan apasionante del desarrollo, donde todos esos valores aprendidos años anteriores me complementan para ser un mejor programador y dar lo mejor de mí en todo momento. Además es algo que me encanta porque puedo fluir, crear y dejar mi marca en cada trabajo.',
+    'Tengo 21 años, soy emprendedor y desarrollador web fullstack con preferencia por el Front-end. Emprendí durante 3 años en la industria del marketing y comunicación a la vez que también aprendía sobre trading y otras cosas más. Durante esos años aprendí muchos valores tales como liderazgo, trabajo en equipo, comunicación efectiva, disciplina, a ser proactivo, constancia y muchos otros mas. Pero sobre todo aprendí a mejorar como persona, y en esa busqueda constante de mejora y de aprender cosas nuevas me topé con este mundo tan apasionante del desarrollo, donde todos esos valores aprendidos años anteriores me complementan para ser un mejor programador y dar lo mejor de mí en todo momento. Además es algo que me encanta porque puedo fluir, crear y dejar mi marca en cada trabajo.',
   paragraphTwo: '',
   paragraphThree: '',
   resume: 'https://imgur.com/DG2XD5B', // if no resume, the button will not show up
@@ -50,7 +50,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'aeroLab.png',
     title: 'Aerolab challenge',
-    info: 'Challenge de front-end hecho con Next.js, Typescript y Styled-components. El desafio consistía en replicar una planilla de figma que me fue dada y agregarle distintas funcionalidades e interacciones para el usuario.',
+    info: 'Challenge de front-end hecho con Next.js, Typescript y Styled-components. El desafío consistía en replicar una planilla de figma que me fue dada y agregarle distintas funcionalidades e interacciones para el usuario.',
     info2: '',
     url: 'https://aero-lab-challenge.vercel.app/',
     repo: 'https://github.com/Agus-Sartorio/aeroLabChallenge', // if no repo, the button will not show up
