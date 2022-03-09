@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import App from '../components/App';
@@ -12,9 +13,14 @@ export default () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>{title || 'Gatsby Simplefolio'}</title>
+        <title>{title || 'Portfolio'}</title>
         <html lang={lang || 'en'} />
-        <meta name="description" content={description || 'Gatsby Simplefolio'} />
+        <meta
+          name="description"
+          content={
+            description || 'Visitá mi portfolio para poder ver en los proyectos en los que trabajé'
+          }
+        />
       </Helmet>
       <App />
     </>
