@@ -21,6 +21,7 @@ export default () => {
             description || 'Visitá mi portfolio para poder ver en los proyectos en los que trabajé'
           }
         />
+        <meta property="og:image" content="https://i.imgur.com/qzcaX29.png" />
       </Helmet>
       <App />
     </>
